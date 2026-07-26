@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use CLEAR-Mem, please cite this software release and the accompanying paper when available."
+title: "CLEAR-Mem"
+type: software
+version: "0.1.0"
+date-released: 2026-07-26
+authors:
+  - family-names: "Yao"
+    given-names: "Huixian"
+    email: "yaohuixian@hunnu.edu.cn"
+repository-code: "https://github.com/AugustRemilia/CLEAR-Mem"
+url: "https://github.com/AugustRemilia/CLEAR-Mem"
+license: "Apache-2.0"
+keywords:
+  - "LLM tutoring"
+  - "learner-state memory"
+  - "learner modeling"
+  - "intelligent tutoring systems"

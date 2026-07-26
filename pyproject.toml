@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clear-mem"
+version = "0.1.0"
+description = "Reference implementation of claim-level learner-state memory regulation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Huixian Yao", email = "yaohuixian@hunnu.edu.cn" },
+]
+dependencies = [
+  "pydantic>=2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/AugustRemilia/CLEAR-Mem"
+Repository = "https://github.com/AugustRemilia/CLEAR-Mem"
+Issues = "https://github.com/AugustRemilia/CLEAR-Mem/issues"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["clear*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
