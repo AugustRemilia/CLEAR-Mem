@@ -6,8 +6,10 @@ Included:
 
 - the `clear` core package, excluding `clear.experiments`;
 - focused tests for schemas, admission, revision, authorization, audit, policy,
-  and governor integration; and
-- a new public-facing example and documentation.
+  and governor integration;
+- a new public-facing example and documentation; and
+- the prompt sets used in the reported generation and judgment stages, as
+  documentation extracts under `prompts/` (not the internal experiment runners).
 
 Excluded:
 

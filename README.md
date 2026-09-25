@@ -60,6 +60,7 @@ clear/
 examples/      minimal integration examples
 tests/         isolated core test suite
 docs/          architecture and integration boundaries
+prompts/       prompt sets used in the reported generation and judgment stages
 ```
 
 ## Design Boundary
