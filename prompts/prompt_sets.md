@@ -317,7 +317,7 @@ def _planner_messages(
 ```python
 def _condition_memory_view(family: dict[str, Any], condition: str, checkpoint_turn: int) -> str:
     category = family["category"]
-    if category in {"LH9", "LH10"}:
+    if category in {"MT-V1", "MT-V2"}:
         valid_note = (
             "Learner-state note: valid support or revision is available. "
             f"Use it only to preserve the learning target: {family['student_situation']}"
